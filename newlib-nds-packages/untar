@@ -1,0 +1,12 @@
+
+mkdir -p "${HOME}"/opt
+
+cd "${HOME}"/opt
+
+tar xf ~/Downloads/gcc-arm-none-eabi_4.9.3svn231177.orig.tar.xz
+
+chmod -R -w "${HOME}"/opt/src/
+
+${HOME}"/opt/src/	./configure
+
+${HOME}"/opt/src/	make
