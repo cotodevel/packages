@@ -1,0 +1,1 @@
+FreeImage -> builds libfreeimage.a dependency for /grit_src
